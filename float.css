@@ -1,0 +1,38 @@
+.body {
+  position: relative;
+}
+.body > div:nth-child(1) {
+  width: 50vw;
+}
+
+.body > div:nth-child(2) {
+  width: 100vw;
+}
+
+.body > div:nth-child(3) {
+  width: 50vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .body > div:nth-child(1) {
+    float: left;
+    width: 25%;
+  }
+
+  .body > div:nth-child(2) {
+    float: left;
+    width: 50%;
+  }
+
+  .body > div:nth-child(3) {
+    float: left;
+    width: 25%;
+  }
+}
+
+.clear {
+  clear: both;
+}

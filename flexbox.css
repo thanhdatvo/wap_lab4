@@ -1,0 +1,40 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.body > div:nth-child(1) {
+  width: 50vw;
+}
+
+.body > div:nth-child(2) {
+  width: 100vw;
+}
+
+.body > div:nth-child(3) {
+  width: 50vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .body > div:nth-child(1) {
+    display: flex;
+    flex: 1;
+  }
+
+  .body > div:nth-child(2) {
+    display: flex;
+    flex: 2;
+  }
+
+  .body > div:nth-child(3) {
+    display: flex;
+    flex: 1;
+  }
+}
+
+.clear {
+  clear: both;
+}

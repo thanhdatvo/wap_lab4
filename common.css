@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+.header{
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: aquamarine;
+}
+.menu {
+    background-color: greenyellow;
+}
+.menu > div {
+    display: inline-block;
+    padding: 10px;
+    border-right: solid 1px gray;
+}
+
+.body > div{
+    height: 260px;
+}
+
+.body > div:nth-child(1){
+    background-color: gray;
+}
+
+.body > div:nth-child(2){
+    opacity: 0.7;
+    background-color: gray;
+}
+
+.body > div:nth-child(3){
+    opacity: 0.3;
+    background-color: gray;
+}
+
+.footer {
+    background-color: greenyellow;
+    padding: 10px;
+    text-align: center;
+}
